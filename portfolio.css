@@ -1,0 +1,96 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+}
+
+/* element selector */
+/* these are those selectors which are being targeted by their names directly */
+header{
+height: 100px;
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    padding-left: 550px;
+    
+}
+
+section{
+    /* height: 500px; */
+    width: 100%;
+    /* border: 2px solid black; */
+    padding-left: 20px;
+}
+
+div{
+    border-radius: 20px;
+    margin: 20px;
+    padding: 20px;
+}
+
+img{
+width: 200px;
+height: 200px; 
+border-radius: 250px;
+}
+/* class selector */
+/* when u use . (dot) it signify that u are refering to the class selector */
+
+.project,
+.projectContainer{
+    display: flex;
+    flex-direction: row;
+    
+font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.project1Container,
+.project2Container,
+.project3Container,
+.project4Container{
+    border: 2px solid black;
+    box-shadow: 2px 3px 20px black;
+}
+
+.project1Container:hover,
+.project2Container:hover,
+.project3Container:hover,
+.project4Container:hover{
+    background-color: rgb(27, 118, 110);
+    cursor: pointer;
+    transform: scale(1.08);
+    transition: 0.3s ease-in-out;
+}
+
+.projectContainer{
+    padding: 0;
+    border: none;
+    margin: 0;
+}
+
+.about{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    padding: 30px;
+    justify-content: space-between;
+    width: 200px;
+    border: 2px solid black;
+    border-radius: 20px;
+}
+
+.feedbackForm{
+    display: flex;
+    justify-content: center;
+}
+
+/* id selector */
+/* when u use # (hash) it signify that u are refering to the id selector */
+#secondElemet{
+
+}
